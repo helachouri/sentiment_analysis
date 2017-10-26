@@ -18,7 +18,7 @@ This repository contains the following files :
 * Clone the repository :
 ```bash
 git clone https://github.com/Hamza-El-Achouri/sentiment_analysis.git
-cd digit-recognition
+cd sentiment_analysis
 ```
 
 * Then test the sentiment analyser. run the `sentiment_analysis_cnn.py` script for the CNN model or `sentiment_analysis_mlp.py` for the MLP model.
