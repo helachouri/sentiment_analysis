@@ -28,7 +28,7 @@ The dataset contains 50,000 records, with under 300 words for the average review
 Using the Multi-Layer Perceptron we achieve an accuracy score of about 86.96%, while using the Convolutional Neural Network  shows improvement over the MLP model, with an accuracy of nearly 88.53%.
 
 
-### Sample Image 1
-![Result Number 1](https://i.imgur.com/VGgQ79T.png)
-### Sample Image 2
-![Result Number 2](http://hanzratech.in/figures/digit-reco-2.png)
+### MLP Result
+![MLP Result](https://i.imgur.com/VGgQ79T.png)
+### CNN Result
+![CNN Result](https://i.imgur.com/HuZaB9D.png)
