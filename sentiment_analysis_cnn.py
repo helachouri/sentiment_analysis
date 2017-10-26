@@ -21,11 +21,11 @@ top_words = 5000
 # pad dataset to a maximum review length in words
 max_words = 500
 X_train = sequence.pad_sequences(X_train, maxlen=max_words)
-X_test = sequence.pas_sequences(X_test, maxlen=max_words)
+X_test = sequence.pad_sequences(X_test, maxlen=max_words)
 
 # create the model
 model = Sequential()
-model.add(Embedding(tp_words, 32, input_length=max_words))
+model.add(Embedding(top_words, 32, input_length=max_words))
 model.add(Conv1D(filters=32, kernel_size=3, padding='same', activation='relu'))
 model.add(MaxPooling1D(pool_size=2))
 model.add(Flatten())
@@ -37,6 +37,6 @@ print(model.summary())
 # fit the model
 model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=2, batch_size=128, verbose=2)
 
-#final evaluation of the model
+# final evaluation of the model
 scores = model.evaluate(X_test, y_test, verbose=0)
 print('Accuracy: %.2f%%' % (scores[1]*100))
