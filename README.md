@@ -29,6 +29,6 @@ Using the Multi-Layer Perceptron we achieve an accuracy score of about 86.96%, w
 
 
 ### Sample Image 1
-![Result Number 1](https://imgur.com/VGgQ79T)
+![Result Number 1](https://i.imgur.com/VGgQ79T.png)
 ### Sample Image 2
 ![Result Number 2](http://hanzratech.in/figures/digit-reco-2.png)
